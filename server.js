@@ -9,7 +9,7 @@ const port = process.env.PORT || 3000;
 
 // Configuración de CORS
 app.use(cors({
-  origin: 'https://rudohszk7afwbc7tytbvaw.on.drv.tw', // Ajusta esto al dominio de tu aplicación
+  origin: 'https://rudohszk7afwbc7tytbvaw.on.drv.tw/public%20(1)/', // Ajusta esto al dominio de tu aplicación
   methods: ['GET', 'POST'],
   allowedHeaders: ['Content-Type'],
 }));
